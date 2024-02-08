@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(47, 33, 3);
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+    background-image: url("https://www.monitask.com/wp-content/uploads/2021/08/teamwork-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  h1, p{
+    margin: 0 auto;
+    background-color: #35270c;
+    color: #FFFFFF;
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  p{
+    margin-top: 5px;
+  }
+  
+  label{
+    display: block;
+    margin: 0.5rem 0;
+    color: #FFFFFF;
+  }
+  input, textarea{
+    margin: 0 auto;
+    display: block;
+  }
+  
+  input[id="number"]{
+    min-width: 150px;
+  }
+  
+  textarea{
+    min-width: 150px;
+    border-radius: 5px;
+  }
+  
+  form{
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    background-color: rgb(138, 95, 62);
+    border-radius: 25px;
+  }
+  
+  legend{
+    color: #FFFFFF;
+  }
+  
+  .submit{
+    border-radius: 25px;
+    color: #FFFFFF;
+    width: 17%;
+    height: 6%;
+    font-size: 14px;
+    background-color: #373737
+  }
+  
+  input[id="name"]{
+    border-radius: 7px;
+    height: 4%;
+    min-width: 65%;
+    border-color: #727272;
+  }
+  
+  input[id="email"]{
+    border-radius: 7px;
+    height: 4%;
+    min-width: 65%;
+  }
+  
+  input[id="number"]{
+    border-radius: 7px;
+    height: 4%;
+    min-width: 65%;
+  }
+  
+  select{
+    border-radius: 12px;
+  }

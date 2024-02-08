@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CalPal Recruitment Form</title>
+    <link rel="stylesheet" href="calpal-form.css"/>
+    </head>
+  <h1 id="title">CalPal Recruitment Form</h1>
+  <p id="description">Welcome to CalPal! Thank you for considering joining our team!</p>
+<form id="survey-form">
+
+  <label id="name-label" for="name">Please Enter Your Name<input id="name" required type="text" placeholder="Enter Your Name"/></label>
+
+  <label id="email-label" for="email">Please Enter Your Email<input id="email" required type="email" placeholder="Enter Your Email"/></label>
+  <label id="number-label" for="number">Please Enter Your Age<input required id="number" type="number" min="15" max="23" placeholder="Enter Your Age"/></label>
+  <label for="dropdown">What Role are you Interested In
+    <select required id="dropdown">
+      <option value="">Select One</option>
+      <option value="1">Front-End Developer</option>
+      <option value="2">Back-End Developer</option>
+      <option value="3">Social Media Marketer</option>
+      <option value="4">Graphic Designer</option>
+      <option value="5">Database Administrator</option>
+    </select>
+  </label>
+  <fieldset id="survey-form">
+    <legend>Do You Reside in the GTA(Great Toronto Area)?</legend>
+    <label for="yes"><input id="yes" type="radio" value="yes" name="area" /> Yes</label>
+    <label for="no"><input id="no" type="radio" value="no" name="area"/> No</label>
+  </fieldset>
+
+  <fieldset id="availability">
+    <legend>What Days are you Available?</legend>
+    <label for="sunday"><input id="sunday" type="checkbox" value="sunday"/> Sunday</label>
+    <label for="monday"><input id="monday" type="checkbox" value="monday"/> Monday</label>
+    <label for="Tuesday"><input id="Tuesday" type="checkbox" value="Tuesday"/> Tuesday</label>
+    <label for="wednesday"><input id="wednesday" type="checkbox" value="wednesday"/> Wednesday</label>
+    <label for="thursday"><input id="thursday" type="checkbox" value="thursday"/> Thursday</label>
+    <label for="friday"><input id="friday" type="checkbox" value="friday"/> Friday</label>
+    <label for="saturday"><input id="saturday" type="checkbox" value="saturday"/> Saturday</label>
+  </fieldset>
+
+  <label for="comments-concerns">Comments/Concerns
+    <textarea placeholder="Any Questions" id="comments-concerns"></textarea>
+  </label>
+  <input type="submit" value="Submit" id="submit" class="submit"/>
+
+ </form>
+</html>
